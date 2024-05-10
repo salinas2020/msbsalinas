@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sua Escola</title>
+    <title>Minha Escola</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
         }
         header {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 20px 0;
+            padding: 20px;
         }
         nav {
             text-align: center;
@@ -30,50 +29,54 @@
             margin: 0 10px;
         }
         nav a:hover {
-            background-color: #ccc;
+            background-color: #555;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
         }
         .content {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
             padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Sua Escola</h1>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="radio.html">Rádio</a>
-        <a href="boletim.html">Boletim</a>
-        <a href="caderneta.html">Caderneta</a>
-    </nav>
+
+<header>
+    <h1>Minha Escola</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="radio.html">Radio</a>
+    <a href="boletim.html">Boletim do Aluno</a>
+    <a href="caderneta.html">Caderneta do Professor</a>
+</nav>
+
+<div class="container">
+
     <div class="content">
-        <!-- Conteúdo da Página Principal -->
-        <h2>Página Inicial - Home</h2>
-        <p>Aqui você encontra a logomarca da escola e os botões para acessar as outras páginas.</p>
-        <!-- Adicione a logomarca da escola aqui -->
+        <h2>Home</h2>
+        <p>Seja bem-vindo à nossa escola!</p>
+        <p>Aqui você encontrará informações importantes sobre nossos serviços.</p>
     </div>
 
-    <!-- Página da Rádio -->
-    <div class="content">
-        <h2>Página da Rádio</h2>
-        <p>Insira o conteúdo relacionado à rádio aqui.</p>
-        <a href="https://salinas2020.github.io/radiomsb/" target="_blank">Acessar Rádio</a>
-    </div>
+</div>
 
-    <!-- Página do Boletim -->
-    <div class="content">
-        <h2>Página do Boletim</h2>
-        <p>Insira o conteúdo relacionado ao boletim do aluno aqui.</p>
-        <a href="https://www.seduc.pa.gov.br/portal/boletim_online/" target="_blank">Acessar Boletim</a>
-    </div>
-
-    <!-- Página da Caderneta -->
-    <div class="content">
-        <h2>Página da Caderneta</h2>
-        <p>Insira o conteúdo relacionado à caderneta do professor aqui.</p>
-        <a href="http://www4.seduc.pa.gov.br/diario_classe/" target="_blank">Acessar Caderneta</a>
-    </div>
+<footer>
+    <p>&copy; 2024 Minha Escola</p>
+</footer>
 
 </body>
 </html>
